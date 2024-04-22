@@ -1,0 +1,103 @@
+@charset "UTF-8";
+body {
+    font-family: Georgia, serif;
+    font-size: 100%;
+    line-height: 175%;
+    margin: 0 15% 0;
+    background: #d6ba7e url(blackgooose.png) no-repeat center 100px fixed;
+  }
+
+header {
+    margin-top: 0;
+    padding: 3em 1em 2em 1em;
+    text-align: center;
+        background-color: rgba(255, 196, 108, 0.137);
+    }
+
+  h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #3886aa;
+    margin-top: 30px;
+  }
+  
+  h2 {
+    color: #dd6438;
+    font-size: 1em;
+  }
+
+  footer {        
+    border-top: 1px solid #3886aa;  
+    text-align: center;  
+    padding-top: 1em; 
+  } 
+
+  footer img {  
+    width: 40px;  
+    height: 40px;  
+    margin-left: .5em;  
+    margin-right: .5em; 
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .centered-list {
+    text-align: center;
+}
+  a:link {
+    color: rgb(60, 177, 212);
+  }
+
+  a:visited {
+    color: #2f5b61;
+  }
+
+  a:focus, a:hover {
+    color: #272abd;
+    background-color: #fff;
+  }
+
+  a:active {
+    color: rgb(255, 145, 19);
+    background-color: #fff;
+  }
+  dt {
+    font-weight: bold;
+  }
+
+  strong {
+    font-style: italic;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #info p {
+    font-style: italic;
+  }
+
+  .price {
+    font-family: Georgia, serif;
+    font-style: italic;
+  }
+
+  p.warning, sup {
+    font-size: small;
+  }
+
+  .label {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+  }
+
+  h2 + p {
+    text-align: center;
+    font-style: italic;
+  }
