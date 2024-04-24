@@ -17,8 +17,9 @@ header {
   h1 {
     color:#ffffff;
     text-align: center;
-    font-family: serif;
-    font-weight: normal;
+    font-family: 'Merienda';
+    font-weight: 300 900;
+    font-display: swap;
     text-transform: uppercase;
     border-bottom: 10px solid #ff0000;
     margin-top: 30px;
@@ -27,6 +28,10 @@ header {
   h2 {
     color: #00ff37;
     font-size: 1em;
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 300 900;
+    font-display: swap; 
   }
 
  P {
